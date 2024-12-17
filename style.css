@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.panel, .panelAdmin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+.block{
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.blockAdmin{
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid #727171;
+    border-radius: 10px;
+}
+.blockAdmin span{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    border-bottom: 1px dashed red;
+    padding-bottom: 15px;
+}
+.items{
+    margin-top: 40px;
+}
